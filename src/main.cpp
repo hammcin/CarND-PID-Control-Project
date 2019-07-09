@@ -40,7 +40,7 @@ int main() {
   bool initial = true;
   bool twiddle = true;
   int verbose = 3;
-  vector<double> p = {0.2, 0.004, 3.0}; // initial
+  // vector<double> p = {0.2, 0.004, 3.0}; // initial
   vector<double> p = {0.18, 0.004, 3.0}; // after twiddle
   vector<double> dp = {0.1, 0.001, 1.0};
   double tol = 0.05;
